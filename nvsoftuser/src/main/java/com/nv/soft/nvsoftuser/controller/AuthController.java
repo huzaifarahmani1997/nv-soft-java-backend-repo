@@ -29,6 +29,7 @@ public class AuthController {
     @GetMapping("/users")
     public ResponseEntity<String> users() {
         log.info("GET /user/users called");
+        log.info("GET /user/users called");
         return ResponseEntity.ok("Hello, User!");
     }
 
